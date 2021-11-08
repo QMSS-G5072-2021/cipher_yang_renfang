@@ -1,0 +1,23 @@
+:py:mod:`cipher_ry2403`
+=======================
+
+.. py:module:: cipher_ry2403
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_ry2403/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

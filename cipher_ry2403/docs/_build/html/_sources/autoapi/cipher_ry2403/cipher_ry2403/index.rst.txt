@@ -1,0 +1,41 @@
+:py:mod:`cipher_ry2403.cipher_ry2403`
+=====================================
+
+.. py:module:: cipher_ry2403.cipher_ry2403
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_ry2403.cipher_ry2403.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   encrypting and decrypting with Caesar Cipher.
+
+   :param text: A string that you wish to encrypt or decrypt
+   :type text: str
+   :param shift: A integer that you wish to shift the text
+   :type shift: int
+   :param encrypt: A boolean standing for encrypting or decrypting. Encrypt by default
+   :type encrypt: bool
+
+   :returns: The new text after encrypting or decrypting
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> cipher('test', 1, encrypt=True)
+   'uftu'
+   >>> cipher('test', 1, encrypt=False)
+   'sdrs'
+
+
